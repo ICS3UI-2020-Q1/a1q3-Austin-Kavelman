@@ -54,7 +54,7 @@ public class Main {
     double subtotal = motherboardPrice + mousePrice + chargerPrice;
 
     //Calculates the subtotal of the taxes
-    double taxes = subtotal * 0.13;
+    double taxes = subtotal * 1.13;
 
     // Displays the final constant for the subtotal of the taxes
     double total = subtotal + taxes;
@@ -63,7 +63,7 @@ public class Main {
     System.out.println("Subtotal = $" + subtotal);
 
     //Displays the total cost to the screen
-    System.out.println("Total Cost = $" + subtotal);
+    System.out.println("Total Cost with tax = $" + taxes);
 
 
   }
